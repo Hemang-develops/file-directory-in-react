@@ -1,4 +1,4 @@
-const explorer = {
+export const explorer = {
   id: '1',
   name: 'root',
   isFolder: true,
@@ -11,12 +11,12 @@ const explorer = {
         {
           id: '3',
           name: 'public nested 1',
-          isFolder: false,
+          isFolder: true,
           items: []
         },
         {
           id: '4',
-          name: 'public nested 2',
+          name: 'public.txt',
           isFolder: false,
           items: []
         },
